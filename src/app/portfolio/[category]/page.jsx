@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import { items } from "./data.js";
 import Button from "@/components/button/button";
 import Image from "next/image";
+import { notFound } from "next/navigation";
 const getData = (cat) => {
   const data = items[cat];
 
