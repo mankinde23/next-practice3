@@ -5,6 +5,7 @@ import { ThemeContext } from "../../context/ThemeContext";
 import { useContext } from "react";
 
 export default function DarkModeToggle() {
+  //   const { toggle, mode } = useContext(ThemeContext);
   const { toggle, mode } = useContext(ThemeContext);
   return (
     <div className={styles.container} onClick={toggle}>
